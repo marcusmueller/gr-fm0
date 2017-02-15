@@ -1,6 +1,6 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2017 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2017 Marcus Müller.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,7 +29,7 @@ namespace gr {
   namespace fm0 {
 
     /*!
-     * \brief <+description of block+>
+     * \brief Simple FM0 encoder. Unpacked (ie. one bit per) byte in, twice as many unpacked out.
      * \ingroup fm0
      *
      */
@@ -45,6 +45,7 @@ namespace gr {
        * constructor is in a private implementation
        * class. fm0::encoder::make is the public interface for
        * creating new instances.
+       * \par initial_state The initial state. The first resulting half-period will be the inverse of this!
        */
       static sptr make(uint8_t initial_state=0);
     };
