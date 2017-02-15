@@ -1,0 +1,11 @@
+This is the fm0-write-a-block package meant as a guide to building
+out-of-tree packages. To use the fm0 blocks, the Python namespaces
+is in 'fm0', which is imported as:
+
+    import fm0
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(fm0)
