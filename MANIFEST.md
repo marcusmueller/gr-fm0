@@ -1,16 +1,13 @@
-title: The FM0 OOT Module
-brief: Short description of gr-fm0
-tags: # Tags are arbitrary, but look at CGRAN what other authors are using
-  - sdr
+title: FM0 encoder Module
+brief: gr-fm0 only contains a minimal FM0 encoder
 author:
-  - Author Name <authors@email.address>
+  - Marcus Müller <marcus@hostalia.de>
 copyright_owner:
-  - Copyright Owner 1
-license:
-#repo: # Put the URL of the repository here, or leave blank for default
+  - Marcus Müller
+license: GPLv3
+repo: 
 #website: <module_website> # If you have a separate project website, put it here
 #icon: <icon_url> # Put a URL to a square image here that will be used as an icon on CGRAN
 ---
-A longer, multi-line description of gr-fm0.
-You may use some *basic* Markdown here.
-If left empty, it will try to find a README file instead.
+
+FM0 encoder Module. It's the simplest: takes unpacked bytes (i.e. one bit per byte) in, emits unpacked bytes (twice as many).
