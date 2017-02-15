@@ -26,6 +26,7 @@ include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
 list(APPEND fm0_sources
+    encoder_impl.cc
 )
 
 set(fm0_sources "${fm0_sources}" PARENT_SCOPE)

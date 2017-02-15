@@ -22,5 +22,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/fm0
+    encoder.h DESTINATION include/fm0
 )
